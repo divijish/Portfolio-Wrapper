@@ -1,0 +1,18 @@
+pluginManagement {
+    plugins {
+        id 'org.springframework.boot' version "2.4.5"
+        id 'io.spring.dependency-management' version '1.0.10.RELEASE'
+    }
+}
+
+rootProject.name = 'portfolio-multi-module'
+
+
+
+include 'AuthServer'
+include 'blog-service'
+include 'file-server'
+include 'portfolio_angular_spring'
+
+
+
